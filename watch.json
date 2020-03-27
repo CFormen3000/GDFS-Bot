@@ -1,0 +1,10 @@
+{
+  "install": {
+    "inclube": ["^package\\.json$", "^\\env$"]
+  },
+  "restart": {
+    "exclube": ["^public/", "^dist/"],
+    "inclube": ["\\.js$", "\\.json"]
+  },
+  "throttle": 900000
+}
